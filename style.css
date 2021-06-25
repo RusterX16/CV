@@ -124,3 +124,114 @@
 .bold {
     font-weight: bold;
 }
+
+.gauge-0 {
+    width: 128px;
+    height: 8px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 128px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.gauge-9 {
+    width: 90%;
+    height: 8px;
+    background: dodgerblue;
+    border-radius: 128px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.gauge-8 {
+    width: 80%;
+    height: 8px;
+    background: dodgerblue;
+    border-radius: 128px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.gauge-7 {
+    width: 70%;
+    height: 8px;
+    background: dodgerblue;
+    border-radius: 128px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.gauge-6 {
+    width: 60%;
+    height: 8px;
+    background: dodgerblue;
+    border-radius: 128px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.gauge-5 {
+    width: 50%;
+    height: 8px;
+    background: dodgerblue;
+    border-radius: 128px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.gauge-4 {
+    width: 40%;
+    height: 8px;
+    background: dodgerblue;
+    border-radius: 128px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.gauge-3 {
+    width: 30%;
+    height: 8px;
+    background: dodgerblue;
+    border-radius: 128px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.gauge-2 {
+    width: 20%;
+    height: 8px;
+    background: dodgerblue;
+    border-radius: 128px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.gauge-1 {
+    width: 10%;
+    height: 8px;
+    background: dodgerblue;
+    border-radius: 128px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.vertical-tiny-space {
+    margin-left: 10px;
+}
+
+.vertical-small-space {
+    margin-left: 25px;
+}
+
+.vertical-space {
+    margin-left: 50px;
+}
+
+.vertical-large-space {
+    margin-left: 75px;
+}
+
+.vertical-extra-large-space {
+    margin-left: 100px;
+}
