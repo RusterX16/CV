@@ -1,17 +1,19 @@
 .container {
+    width: 21cm;
+    height: 29.7cm;
     display: flex;
+    border: 1px solid black;
 }
 
 .rect {
     width: 256px;
-    height: 1024px;
+    height: 100%;
     background: #50aaff;
     box-shadow: 3px 3px 3px #053bff;
 }
 
 .content {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 3%;
 }
 
 .title {
@@ -34,7 +36,55 @@
     background: lightgray;
 }
 
-.thumbnail {
-    width: 50px;
-    height: auto;
+.bloc {
+    border: 1px dashed black
+}
+
+.header {
+    display: flex;
+    border: 1px solid black;
+}
+
+.medium-title {
+    font-family: Corbel, serif;
+    margin-left: 1%;
+}
+
+.center {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1%;
+}
+
+.table {
+    border: 1px dotted black;
+    margin-left: 12%;
+}
+
+.element {
+    font-family: Calibri, serif;
+    display: flex;
+}
+
+.event {
+    flex: 75%;
+}
+
+.date {
+    flex: 25;
+}
+
+.name {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.location {
+    color: darkgray;
+    margin: 0;
+}
+
+.details {
+    font-size: 13px;
+    margin: 0;
 }
