@@ -8,8 +8,8 @@
 .rect {
     width: 256px;
     height: 100%;
-    background: #50aaff;
-    box-shadow: 3px 3px 3px #053bff;
+    background: #424A54;
+    box-shadow: 3px 3px 3px lightgray;
 }
 
 .content {
@@ -26,6 +26,10 @@
     font-family: Calibri, serif;
 }
 
+.calibri {
+    font-family: Calibri, serif;
+}
+
 .tiny-space {
     width: 100%;
     height: 10px;
@@ -34,6 +38,11 @@
 .small-space {
     width: 100%;
     height: 25px;
+}
+
+.smaller-space {
+    width: 100%;
+    height: 20px;
 }
 
 .space {
@@ -58,17 +67,28 @@
 }
 
 .bloc {
-    border: 1px dashed black
+    border: 1px solid black;
+}
+
+.bloc-2 {
+    font-family: Calibri, serif;
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1px solid black;
 }
 
 .header {
     display: flex;
-    border: 1px solid black;
+}
+
+.small-title {
+    font-family: Corbel, serif;
 }
 
 .medium-title {
     font-family: Corbel, serif;
-    margin-left: 1%;
+    margin-left: 3%;
 }
 
 .horizontal-align {
@@ -79,16 +99,13 @@
 .center {
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 1%;
 }
 
 .table {
-    border: 1px dotted black;
-    margin-left: 12%;
+    margin-left: 14%;
 }
 
 .element {
-    font-family: Calibri, serif;
     display: flex;
 }
 
@@ -97,21 +114,25 @@
 }
 
 .date {
+    font-family: Corbel, serif;
     font-size: 14px;
     flex: 25;
 }
 
 .name {
+    font-family: Calibri, serif;
     font-weight: bold;
     margin-bottom: 0;
 }
 
 .location {
+    font-family: Calibri, serif;
     color: darkgray;
     margin: 0;
 }
 
 .details {
+    font-family: Calibri, serif;
     font-size: 13px;
     margin: 0;
 }
@@ -125,8 +146,28 @@
     font-weight: bold;
 }
 
+.personal-data {
+    font-family: Calibri, serif;
+    color: white;
+    margin-left: 5%;
+}
+
+.languages {
+    display: flex;
+}
+
 .gauge-0 {
     width: 128px;
+    height: 8px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 128px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.small-gauge-0 {
+    width: 64px;
     height: 8px;
     background: white;
     border: 2px solid black;
