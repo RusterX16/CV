@@ -2,6 +2,7 @@
     width: 21cm;
     height: 29.7cm;
     display: flex;
+    border: 1px solid black;
 }
 
 .rect {
